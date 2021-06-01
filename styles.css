@@ -52,6 +52,9 @@ body {
   width: 100%;
   height: 95%;
 }
+#hero-desktop{
+  display: none;
+}
 .header {
   margin-top: 40px;
   text-transform: uppercase;
@@ -176,6 +179,13 @@ h3 {
   }
   .hero {
     height: 100%;
+  }
+  #hero-desktop
+  {
+  display: block;
+  }
+  #hero-mobile{
+    display: none;
   }
   .logo {
     width: 80%;
