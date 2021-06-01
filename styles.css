@@ -1,6 +1,8 @@
 :root {
   --Gradientdefault: linear-gradient(
-    135deg,  hsl(0, 0%, 100%),  hsl(0, 100%, 98%)
+    135deg,
+    hsl(0, 0%, 100%),
+    hsl(0, 100%, 98%)
   );
   --GradientBtn: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
   --DesaturatedRed: hsl(0, 36%, 70%);
@@ -74,10 +76,10 @@ h2 {
   font-weight: var(--font-light);
   font-size: 0.7rem;
 }
-h3{
-    max-width: 45ch;
+h3 {
+  max-width: 45ch;
   margin: 20px 10%;
- text-align: center;
+  text-align: center;
 }
 .form-container {
   width: 80%;
@@ -121,23 +123,20 @@ h3{
   border-radius: 22px;
   border-width: 0px;
 }
-.alert-icon-container
-{
-    position: absolute;
-    right: 20%;
-    top: 25%;
-    opacity: 0;
+.alert-icon-container {
+  position: absolute;
+  right: 20%;
+  top: 25%;
+  opacity: 0;
 }
-.alert-text-container
-{
-    position: absolute;
-    margin-left: 20px;
-    margin-top: 5px;
-    opacity: 0;
+.alert-text-container {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 5px;
+  opacity: 0;
 }
-.alert-text
-{
-    color: var(--SoftRed);
+.alert-text {
+  color: var(--SoftRed);
 }
 @media screen and (min-width: 1000px) {
   body {
@@ -186,28 +185,24 @@ h3{
     font-size: 2.1rem;
     letter-spacing: 0.5ch;
   }
-  h1{
+  h1 {
     text-align: left;
   }
-  h2{
+  h2 {
     text-align: left;
   }
-  .message
-  {
+  .message {
     font-size: 0.9rem;
   }
-  h3
-  {
+  h3 {
     text-align: left;
     margin: 30px 0;
-    max-width: 35ch
-  }
-  .form-container{
-
     max-width: 35ch;
   }
-  .alert-text
-    {
+  .form-container {
+    max-width: 35ch;
+  }
+  .alert-text {
     font-size: 1rem;
-    }
+  }
 }
